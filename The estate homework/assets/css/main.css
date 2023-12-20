@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: auto;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  width: 85%;
+  min-height: auto;
+}
+header nav .navbarBrand {
+  text-align: center;
+}
+header nav .collapseDiv {
+  text-align: center;
+  justify-content: center;
+}
+header nav .collapseDiv .navbarNav {
+  gap: 15px;
+}
+header nav .collapseDiv .navbarNav .navLink {
+  color: white;
+  font-weight: 700;
+}
+header nav .number {
+  background-color: orangered;
+  color: white;
+}
+
+main #yourHomeSection {
+  width: 100%;
+  min-height: 700px;
+  background-image: url(/assets/scss/images/home_slider_bcg\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+main #yourHomeSection .text {
+  display: flex;
+  justify-content: center;
+}
+main #yourHomeSection .text h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+main #clientsSection {
+  width: 100%;
+  min-height: 600px;
+  background-image: url(/assets/scss/images/testimonials_background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+main #clientsSection .content {
+  padding: 30px;
+  text-align: center;
+}
+main #clientsSection .content .line {
+  color: orangered;
+}
+main #clientsSection .content .text {
+  color: white;
+}
+main #clientsSection .content .text p {
+  padding: 15px;
+}
+main #clientsSection .content .text .pp {
+  padding: 15px;
+}
+main #clientsSection .content .text img {
+  padding: 15px;
+  border-radius: 50%;
+}
+main #clientsSection .content .text h5 {
+  font-size: 15px;
+  color: orangered;
+}
+main #popularSection {
+  width: 100%;
+  min-height: 500px;
+}
+main #popularSection .head {
+  text-align: center;
+}
+main #popularSection .head h1 {
+  text-align: center;
+  font-size: 30px;
+}
+main #popularSection .head p {
+  text-align: center;
+}
+main #popularSection .head .line p {
+  text-align: center;
+  color: red;
+}
+main #popularSection #products .box {
+  max-width: 100%;
+}
+main #popularSection #page {
+  width: 170px;
+  height: 40px;
+}
+main #searchDiv .myBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 150px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 20px;
+}
+main #searchDiv .myBox .myBoxdiv {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #searchDiv .myBox .myBoxdiv img {
+  width: 30%;
+  height: 150px;
+  border-radius: 20px;
+}
+main #searchDiv .myBox .myBoxdiv p {
+  font-size: 30px;
+  margin-right: 20px;
+}
+main .productImg {
+  max-width: 100%;
+}
+main #formSection {
+  width: 100%;
+  min-height: 500px;
+}
+main #cartSection {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/scss/images/world.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #cartSection .containerDiv {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #cartSection .containerDiv .head {
+  text-align: center;
+}
+main #cartSection .containerDiv .head .line p {
+  color: orangered;
+}
+main #cartSection .containerDiv .head .cart h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+main #cartSection .containerDiv .images {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #cartSection .containerDiv .images img {
+  max-width: 100%;
+  height: auto;
+}
+main #cartSection .containerDiv .images .btn {
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  background-color: orangered;
+  color: white;
+  border-radius: 0;
+  width: 70%;
+  height: 30px;
+}
+
+footer {
+  margin-top: 30px;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
